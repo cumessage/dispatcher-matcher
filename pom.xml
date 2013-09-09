@@ -21,10 +21,17 @@
 			<version>3.8.1</version>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.apache</groupId>
+			<artifactId>test</artifactId>
+			<version>1.0</version>
+			<scope>system</scope>
+			<systemPath>${basedir}/lib/NLPIR.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
-		<finalName>gameservice</finalName>
+		<finalName>matcher</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
